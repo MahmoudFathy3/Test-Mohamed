@@ -1,0 +1,190 @@
+body {
+  font-family: Tajawal, sans-serif;
+  overflow-x: hidden;
+  background-color: #eff2f5;
+  background-color: #fff;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 2;
+  margin-top: 120px;
+}
+
+.wrapper .images-wrapper img {
+  width: 100%;
+}
+.wrapper .intro-section {
+  color: #fff;
+  padding: 70px 140px 0 0;
+}
+.wrapper .intro-section h1 {
+  line-height: 1.4;
+  font-weight: 300;
+  font-size: 34px;
+  margin: 0;
+}
+.wrapper .intro-section p {
+  margin: 15px 0;
+}
+.wrapper .intro-section a {
+  text-decoration: none !important;
+  color: #fff !important;
+  border-radius: 6px;
+  background-color: #2eca5a;
+  padding: 10px 28px;
+  display: inline-block;
+  font-size: 17px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
+}
+.wrapper .intro-section a:hover {
+  transform: scale(0.97);
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.15);
+}
+
+.notification {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: -26px;
+  margin: auto;
+  width: 45px !important;
+  animation: swing ease-in-out 4s infinite alternate-reverse;
+}
+.calender {
+  position: absolute;
+  left: 0;
+  top: -40px;
+  width: 95px !important;
+  animation: swing2 ease-in-out 8s infinite alternate;
+}
+.chart {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 100px !important;
+  animation: swing3 ease-in-out 4s infinite alternate;
+}
+.chart-two {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  width: 140px !important;
+  animation: swing4 ease-in-out 4s infinite alternate;
+}
+.task-one {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 100px !important;
+  animation: swing5 ease-in-out 4s infinite alternate;
+}
+.task-two {
+  position: absolute;
+  left: 156px;
+  bottom: 146px;
+  width: 125px !important;
+  animation: swing6 ease-in-out 4s infinite alternate;
+}
+.task-three {
+  position: absolute;
+  left: 279px;
+  bottom: 146px;
+  width: 125px !important;
+  animation: swing7 ease-in-out 4s infinite alternate;
+}
+@keyframes swing6 {
+  0% {
+    left: 156px;
+    bottom: 146px;
+  }
+  50% {
+    left: 237px;
+    bottom: 142px;
+  }
+  100% {
+    left: 279px;
+    bottom: 146px;
+  }
+}
+@keyframes swing7 {
+  0% {
+    left: 279px;
+    bottom: 146px;
+  }
+  50% {
+    left: 220px;
+    bottom: 100px;
+  }
+  100% {
+    left: 156px;
+    bottom: 146px;
+  }
+}
+@keyframes swing {
+  0% {
+    top: 30px;
+    right: 50px;
+  }
+  100% {
+    right: 0;
+    top: -30px;
+  }
+}
+@keyframes swing5 {
+  0% {
+    bottom: -35px;
+    left: -15px;
+  }
+  100% {
+    left: 10px;
+    bottom: -35px;
+  }
+}
+@keyframes swing2 {
+  0% {
+    left: 0;
+    top: 5px;
+  }
+  50% {
+    left: -25px;
+    top: 20px;
+  }
+  100% {
+    left: 25px;
+    top: 20px;
+  }
+}
+@keyframes swing3 {
+  0% {
+    right: 0;
+    top: 0;
+  }
+  50% {
+    right: 15px;
+    top: 30px;
+  }
+  75% {
+    right: -15px;
+    top: 30px;
+  }
+  100% {
+    right: 0;
+    top: 0;
+  }
+}
+@keyframes swing4 {
+  0% {
+    right: 0;
+    bottom: -5px;
+  }
+  50% {
+    right: -15px;
+    bottom: 30px;
+  }
+  100% {
+    right: 0;
+    bottom: -5px;
+  }
+}
